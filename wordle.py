@@ -19,7 +19,7 @@ def display_feedback(guess, secret):
 def wordle():
     secret_word = get_random_word()
     attempts = 6
-    print("Welcome to Wordle! Guess the 5-letter word.")
+    print("Welcome to Wordle! Guess the 5-letter word of fruit.")
 
     for attempt in range(attempts):
         guess = input(f"Attempt {attempt + 1}/{attempts}: ").lower()
